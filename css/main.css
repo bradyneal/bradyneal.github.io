@@ -4,6 +4,16 @@ layout: null
 
 @import url("pygment_highlights.css");
 
+/* --- START Brady's Custom Stuff --- */
+
+img.rounded {
+  /*object-fit: cover;*/
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* ---- END Brady's Custom Stuff ---- */
+
 /* --- General --- */
 
 body {

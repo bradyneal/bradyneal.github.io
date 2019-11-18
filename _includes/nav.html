@@ -7,10 +7,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {%- if site.title-img -%}
+      <!-- {%- if site.title-img -%}
         <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img src="{{ site.title-img }}"/></a>
       {%- else -%}
         <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
+      {%- endif -%} -->
+      
+      <!-- Change the website title in the upper-left corner to link to the About Me page, rather than the index/blog page -->
+      {%- if site.title-img -%}
+        <a class="navbar-brand navbar-brand-logo" href="{{ 'aboutme' | absolute_url }}"><img src="{{ site.title-img }}"/></a>
+      {%- else -%}
+        <a class="navbar-brand" href="{{ 'aboutme' | absolute_url }}">{{ site.title }}</a>
       {%- endif -%}
     </div>
 

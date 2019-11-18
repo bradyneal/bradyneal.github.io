@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Brady Neal
+show-avatar: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+<!-- <div class="avatar-container">
+  <div class="avatar-img-border">
+      <img class="avatar-img" src="{{ site.avatar }}" />
+  </div> -->
+<!-- </div> -->
+<img class="rounded" style="float: left;" src="{{ site.avatar }}" width="300px">
+<!-- ![Photo of Brady](/img/brady-small.jpg) -->
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Bonjour! I'm a PhD student in causal inference and machine learning at [Mila - Quebec AI Institute](https://mila.quebec/en/mila/), co-advised by [Ioannis Mitliagkas](http://mitliagkas.github.io) and [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/). I am interested in both fundamental and applied causal inference, especially applications to public policy.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Before starting my PhD at Mila, I did my Masters with Ioannis Mitliagkas at Mila. Before that, I was at University of Pennsylvania where I did the first 3 years of my Bachelors in machine learning before leaving to Mila.
