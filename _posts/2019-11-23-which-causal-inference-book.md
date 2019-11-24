@@ -2,6 +2,8 @@
 layout: post
 title: Which causal inference book you should read
 subtitle: A flowchart
+gh-repo: bradyneal/causal-inference-books
+gh-badge: [star, follow]
 tags: [resources]
 comments: true
 permalink: which-causal-inference-book
