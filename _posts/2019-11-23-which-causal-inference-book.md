@@ -5,7 +5,6 @@ subtitle: A flowchart
 tags: [resources]
 comments: true
 permalink: which-causal-inference-book
-image: /img/books_flowchart.svg
 ---
 
 **Disclaimer:** I have only read 4 of the 9 books in the flowchart below. However, I list the other 5 in the flowchart because I think I know enough about them to do so. You can read short reviews of the ones I read below under the "Mini Reviews" heading.
