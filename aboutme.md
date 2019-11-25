@@ -10,7 +10,7 @@ show-avatar: false
       <img class="avatar-img" src="{{ site.avatar }}" />
   </div> -->
 <!-- </div> -->
-<img class="rounded" style="float: left;" src="{{ site.avatar }}" width="300px">
+<img class="rounded" style="float: left;" src="{{ site.about-pic }}" width="300px">
 <!-- ![Photo of Brady](/img/brady-small.jpg) -->
 
 Bonjour! I'm a PhD student in causal inference and machine learning at [Mila - Quebec AI Institute](https://mila.quebec/en/mila/), co-advised by [Ioannis Mitliagkas](http://mitliagkas.github.io) and [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/). I am interested in both fundamental and applied causal inference, especially applications to public policy.
