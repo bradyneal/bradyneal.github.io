@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Which causal inference book you should read
-subtitle: A flowchart
+subtitle: A flowchart and a list of short book reviews
 description: A flowchart to help you choose which causal inference book to read. Also, a few short book reviews.
 image: /img/books_flowchart.svg
 share-img: /img/books_flowchart.jpg
