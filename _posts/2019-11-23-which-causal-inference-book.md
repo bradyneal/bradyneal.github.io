@@ -13,13 +13,12 @@ comments: true
 permalink: which-causal-inference-book
 ---
 
-**Last updated:** November 24, 2019
-
+<!-- **Last updated:** November 24, 2019 -->
 **Disclaimer:** I have only read 4 of the 9 books in the flowchart below. However, I list the other 5 in the flowchart because I think I know enough about them to do so. You can read short reviews of the ones I read below under the "Mini Reviews" heading.
 
 # Flowchart 
 
-![Causal Inference Books Flowchart](/img/books_flowchart.svg)
+[![Causal Inference Books Flowchart]({{page.image}})]({{page.image}})
 
 # Mini Reviews
 
