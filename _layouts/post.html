@@ -52,6 +52,19 @@ layout: base
         {% include social-share.html %}
       {% endif %}
 
+      <details>
+          <summary>Cite This Blog Post (BibTeX)</summary>
+          <pre>
+@misc{ {{ site.author.name | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.permalink }} ,
+    author = { {{ site.author.name }} },
+    title = { {{ page.title }} },
+    month={ {{ page.date | date: "%B" }} },
+    year = { {{ page.date | date: "%Y" }} },
+    url = { {{ page.url | absolute_url }} },
+    note = { Online; accessed {{ site.time | date: '%d-%B-%Y' }} }
+}</pre>
+      </details>
+
       <ul class="pager blog-pager">
         {% if page.previous.url %}
         <li class="previous">
