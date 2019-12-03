@@ -61,8 +61,16 @@ layout: base
     month={ {{ page.date | date: "%B" }} },
     year = { {{ page.date | date: "%Y" }} },
     url = { {{ page.url | absolute_url }} },
-    note = { Online; accessed {{ site.time | date: '%d-%B-%Y' }} }
-}</pre>
+    note = { Online; accessed <script type="text/javascript">
+      var showdate  = "yes"   // SHOW THE DATE | yes | no |
+      if (showdate == "yes") {
+        var d = new Date();
+        var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+        document.write(d.getDate() + '-');
+        document.write(months[d.getMonth()] + '-');
+        document.write(d.getFullYear());
+      }
+      </script> } </pre>
       </details>
 
       <ul class="pager blog-pager">
