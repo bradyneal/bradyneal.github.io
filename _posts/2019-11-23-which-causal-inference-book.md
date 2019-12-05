@@ -7,7 +7,7 @@ image: /img/books_flowchart.svg
 share-img: /img/books_flowchart.jpg
 show-avatar: false
 gh-repo: bradyneal/causal-inference-books
-gh-badge: [star, follow]
+gh-badge: [star]
 tags: [resources]
 comments: true
 permalink: which-causal-inference-book
