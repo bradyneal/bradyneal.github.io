@@ -55,13 +55,13 @@ layout: base
       <details>
           <summary>Cite this blog post (BibTeX)</summary>
           <pre>
-@misc{ {{ site.author.name | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.permalink }} ,
-    author = { {{ site.author.name }} },
-    title = { {{ page.title }} },
-    month={ {{ page.date | date: "%B" }} },
-    year = { {{ page.date | date: "%Y" }} },
-    url = { {{ page.url | absolute_url }} },
-    note = { Online; accessed <script type="text/javascript">
+@misc{ {{- site.author.name | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.permalink }},
+    author = { {{- site.author.name -}} },
+    title = { {{- page.title -}} },
+    month={ {{- page.date | date: "%B" -}} },
+    year = { {{- page.date | date: "%Y" -}} },
+    url = { {{- page.url | absolute_url -}} },
+    note = {Online; accessed <script type="text/javascript">
       var showdate  = "yes"   // SHOW THE DATE | yes | no |
       if (showdate == "yes") {
         var d = new Date();
@@ -70,8 +70,8 @@ layout: base
         document.write(months[d.getMonth()] + '-');
         document.write(d.getFullYear());
       }
-      </script> }
-} </pre>
+      </script>}
+}</pre>
       </details>
 
       <ul class="pager blog-pager">
