@@ -58,7 +58,7 @@ layout: base
 @misc{ {{- site.author.name | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.permalink }},
     author = { {{- site.author.name -}} },
     title = { {{- page.title -}} },
-    month={ {{- page.date | date: "%B" -}} },
+    month= { {{- page.date | date: "%B" -}} },
     year = { {{- page.date | date: "%Y" -}} },
     url = { {{- page.url | absolute_url -}} },
     note = {Online; accessed <script type="text/javascript">
